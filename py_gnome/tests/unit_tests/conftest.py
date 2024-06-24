@@ -17,6 +17,7 @@ import numpy as np
 import pytest
 
 import gnome
+#import gnome.basic_types
 from gnome.basic_types import datetime_value_2d
 
 from gnome.maps import MapFromBNA

@@ -12,8 +12,9 @@ test module
 """
 import pytest
 
-from gnome.utilities import rand
-
+#from gnome.utilities import rand
+#from gnome.utilities.rand import random_with_persistence
+import random
 def pytest_addoption(parser):
     '''
     Skip slow tests
